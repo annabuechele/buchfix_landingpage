@@ -28,7 +28,7 @@ function App() {
         image={startImage}
       />
       <ComponentLayoutSection />
-      <ComponentContentItem />
+      <ComponentContentItem itemDown="learn more" itemUp="about us" />
     </div>
   );
 }
