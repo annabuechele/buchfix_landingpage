@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import ComponentLayoutStart from "./components/ComponentLayoutStart/ComponentLayoutStart";
 import ComponentLayoutSection from "./components/ComponentLayoutSection/ComponentLayoutSection";
+import ComponentContentItem from "./components/ComponentContentItem/ComponentContentItem";
+import startImage from "./images/pic-startpage.jpg";
 
 function App() {
   return (
@@ -22,9 +24,11 @@ function App() {
             text: "location",
           },
         ]}
-        header="BUCHFIXX"
+        header="buchfix"
+        image={startImage}
       />
       <ComponentLayoutSection />
+      <ComponentContentItem />
     </div>
   );
 }

@@ -12,23 +12,38 @@
 .navHeader {
   position: absolute;
   width: 100%;
-  height: 5%;
+  height: 10%;
   display: flex;
   flex-direction: row;
   color: white;
+  letter-spacing: 0.5pt;
 }
-.NavLogin {
-  text-align: right;
+.navItemLogin {
   text-decoration: none;
   color: white;
 }
+
 .NavHeaderSection {
   flex: 1;
 }
 
-#navItemContainer {
+.navItemContainer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
+}
+.contentMain {
+  display: absolute;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 18pt;
+  transform: rotate(90deg) translateX(90%) translateY(-90%);
+}
+img {
+  width: 1050px;
+  height: 390px;
+  position: absolute;
+  top: 190px;
+  right: 0px;
 }
