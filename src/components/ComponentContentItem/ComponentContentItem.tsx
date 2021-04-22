@@ -1,15 +1,15 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import "./ComponentContentItem.scss";
 
-interface ComponentContentItem {
+interface ComponentContentItemProps {
   itemUp: string;
   itemDown: string;
 }
-function ComponentContentItem(props: ComponentContentItem) {
+function ComponentContentItem(props: ComponentContentItemProps) {
   return (
     <div className="contentItemsContainer">
       <div className="itemSectionUp">{props.itemUp}</div>
-      <div className="itemSecionDown">{props.itemDown}</div>
+      <div className="itemSectionDown">{props.itemDown}</div>
     </div>
   );
 }

@@ -1,3 +1,21 @@
-.contentItemAboutUs {
-  color: #442220;
+.contentItemsContainer {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 10%;
+  align-items: center;
+}
+.itemSectionUp {
+  font-size: 14pt;
+  flex: 1;
+  padding-bottom: 40px;
+  border-bottom: 2.5px solid #426b69;
+  letter-spacing: 0.5pt;
+}
+.itemSectionDown {
+  font-size: 20pt;
+  flex: 1;
+  padding-top: 20px;
+  letter-spacing: 2pt;
 }

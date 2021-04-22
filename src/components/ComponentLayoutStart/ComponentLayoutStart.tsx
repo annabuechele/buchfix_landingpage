@@ -20,7 +20,7 @@ function ComponentLayoutStart(props: ComponentLayoutStartProps) {
         <div className="NavHeaderSection navItemContainer">
           {props.navitems.map((item) => {
             //foreach für alle array element in unserer nav array
-            return <span>{item.text}</span>;
+            return <a href={"#" + item.link}>{item.text}</a>;
           })}
         </div>
         <div className="NavHeaderSection navItemContainer" id="loginright">
