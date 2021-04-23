@@ -27,6 +27,16 @@
   flex: 1;
 }
 
+#loginright a {
+  margin-left: auto;
+  margin-right: 40px;
+  display: block;
+  padding: 10px 30px;
+  background-color: white;
+  color: #442220;
+  border-radius: 10px;
+}
+
 .navItemContainer {
   display: flex;
   align-items: center;
@@ -41,10 +51,13 @@
   letter-spacing: 18pt;
   transform: rotate(90deg) translateX(80%) translateY(-60%);
 }
-img {
-  width: 1050px;
+.startImage {
+  //besser als a fixe zahl, weil denn gohts nie über da balken!
+  width: 50%;
   height: 390px;
   position: absolute;
   top: 155px;
   right: 0px;
+  //des macht das des bild des größer wird
+  max-width: 1000px;
 }
