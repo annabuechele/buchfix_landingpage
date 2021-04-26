@@ -9,6 +9,12 @@ interface ComponentLayoutSectionProps {
     | ReactChildren[]
     | string;
   id: string;
+  contentChild:
+    | ReactChild
+    | ReactChild[]
+    | ReactChildren
+    | ReactChildren[]
+    | string;
 }
 function ComponentLayoutSection(props: ComponentLayoutSectionProps) {
   return (
@@ -16,6 +22,7 @@ function ComponentLayoutSection(props: ComponentLayoutSectionProps) {
       <div className="backgroundBlockSection" id={props.id}>
         {props.linkChild}
       </div>
+      <div className="componentContentItemContainer">{props.contentChild}</div>
     </div>
   );
 }

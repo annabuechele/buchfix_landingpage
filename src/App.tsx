@@ -6,7 +6,7 @@ import ComponentLayoutSection from "./components/ComponentLayoutSection/Componen
 import ComponentContentItem from "./components/ComponentContentItem/ComponentContentItem";
 import startImage from "./images/pic-startpage.jpg";
 import ComponentLayoutFooterSection from "./components/ComponentLayoutFooterSection/ComponentLayoutFooterSection";
-import ComponentContentItemText from "./components/ComponentContentItem2/ComponentContentItemText";
+import ComponentContentItemText from "./components/ComponentContentItemText/ComponentContentItemText";
 
 function App() {
   const NavItems = [
@@ -36,17 +36,35 @@ function App() {
         linkChild={
           <ComponentContentItem itemDown="about us" itemUp="learn more" />
         }
+        contentChild={
+          <ComponentContentItemText
+            image={null}
+            text="About us Lorem schienseijasjdölfkjaösldf"
+          />
+        }
       />
       <ComponentLayoutSection
         id={NavItems[1].link}
         linkChild={
           <ComponentContentItem itemDown="contact us" itemUp="feel free" />
         }
+        contentChild={
+          <ComponentContentItemText
+            image={null}
+            text="Contact us Lorem schienseijasjdölfkjaösldf"
+          />
+        }
       />
       <ComponentLayoutSection
         id={NavItems[2].link}
         linkChild={
           <ComponentContentItem itemDown="our location" itemUp="find out" />
+        }
+        contentChild={
+          <ComponentContentItemText
+            image={null}
+            text="Our Locations Lorem schienseijasjdölfkjaösldf"
+          />
         }
       />
     </div>
