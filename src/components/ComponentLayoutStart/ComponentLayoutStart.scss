@@ -53,11 +53,13 @@
 }
 .startImage {
   //besser als a fixe zahl, weil denn gohts nie über da balken!
-  width: 50%;
+  width: 70%;
   height: 390px;
   position: absolute;
   top: 155px;
   right: 0px;
   //des macht das des bild des größer wird
-  max-width: 1000px;
+  max-width: 1500px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
