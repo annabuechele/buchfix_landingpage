@@ -24,15 +24,16 @@ function ComponentLayoutStart(props: ComponentLayoutStartProps) {
           })}
         </div>
         <div className="NavHeaderSection navItemContainer" id="loginright">
-          <a href="" className="navItemLogin">
-            log in
+          <a href="https://app.buchfix.at" className="navItemLogin">
+            Log-in
           </a>
         </div>
       </div>
       <div className="backgroundBlockStart">
         <div className="contentMain">{props.header}</div>
-        <img src={props.image} alt="startImage" />
       </div>
+      {/* des img sött ned in da block ine!*/}
+      <img src={props.image} alt="startImage" className="startImage" />
     </div>
   );
 }
